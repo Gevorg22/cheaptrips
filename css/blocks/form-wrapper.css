@@ -43,7 +43,7 @@
 
 input:focus {
     background-color: #dddddd;
-    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.671);
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.371);
 }
 
 .wrapper__button {
