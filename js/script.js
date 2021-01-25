@@ -10,7 +10,7 @@ const formSearch = document.querySelector('.form-search'),
 
 const citiesApi = './db/cities.json',
     API_KEY = 'dcd44cbee2f079a9a69a3aa338666a9f',
-    calendar = 'http://min-prices.aviasales.ru/calendar_preload',
+    calendar = 'https://min-prices.aviasales.ru/calendar_preload',
     MAX_COUNT = 5;
 
 let city = [];
