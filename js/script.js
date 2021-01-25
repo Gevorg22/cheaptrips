@@ -8,7 +8,7 @@ const formSearch = document.querySelector('.form-search'),
     OtherCheapTickets = document.getElementById('other-cheap-tickets');
 
 
-const citiesApi = '../db/cities.json',
+const citiesApi = '../../db/cities.json',
     API_KEY = 'dcd44cbee2f079a9a69a3aa338666a9f',
     calendar = 'http://min-prices.aviasales.ru/calendar_preload',
     MAX_COUNT = 5;
