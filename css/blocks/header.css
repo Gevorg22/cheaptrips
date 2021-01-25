@@ -1,0 +1,143 @@
+.header {
+    margin-bottom: 45px;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 140px;
+    padding: 0 20px;
+}
+
+.header-logo__name {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-logo__title {
+    margin-right: 10px;
+    color: #dfdfdf;
+    font-size: 30px;
+    font-weight: 900;
+    transition: color 0.3s ease-in;
+}
+
+.header-logo__title:hover {
+    color: #fcfcfc;
+}
+
+.header-logo__img {
+    width: 35px;
+    height: 35px;
+}
+
+.header-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(248, 248, 248, 0.15);
+}
+
+.header-contact {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px 14px;
+    font-weight: 700;
+}
+
+.header-contact-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.header-contact-page {
+    color: #a0b0b9;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
+
+.header-contact-page:hover {
+    color: #ffffff;
+}
+
+.header-info {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.header-title {
+    margin-bottom: 5px;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.header-subtitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.next-page-m {
+    display: none;
+}
+
+@media (max-width: 576px){
+    .container {
+        margin-top: 0;
+    }
+
+    .header {
+        margin-top: 45px;
+    }
+
+    .header-logo {
+        flex-direction: column;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .header-logo__name {
+        order: 2;
+        color: #ffffff;
+    }
+
+    .header-contacts {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 50px;
+        padding: 5px;
+        border-radius: 0;
+    }
+
+    .header-contact {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .header-info {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .header-title {
+        font-size: 26px;
+    }
+
+    .header-subtitle {
+        font-size: 16px;
+    }
+    
+    .next-page-d {
+        display: none;
+    }
+
+    .next-page-m {
+        width: 100%;
+        display: flex;
+        margin: 0;
+    }
+}
