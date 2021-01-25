@@ -4,9 +4,6 @@
 
 html{
     min-height:100%;
-    background: url('../../img/main-bg.jpg') no-repeat center;
-    background-size:cover;
-    background-color: #16222A;
     background: #16222A;  /* for old browsers */
     background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #335c70, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
